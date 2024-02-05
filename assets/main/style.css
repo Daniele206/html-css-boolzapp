@@ -18,3 +18,45 @@ main{
   margin: 0 auto;
   background-color: red;
 }
+
+.top{
+  height: 10%;
+  width: 100%;
+  background-color: blue;
+}
+
+.bottom{
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+.sinistra{
+  width: 370px;
+  height: 100%;
+}
+
+.destra{
+  width: calc(100% - 370px);
+  height: 100%;
+  background-color: blueviolet;
+}
+
+.no-notifiche{
+  width: 100%;
+  height: 10%;
+  background-color: aqua;
+}
+
+.search-chat{
+  width: 100%;
+  height: 10%;
+  background-color: green;
+}
+
+.list-chat{
+  width: 100%;
+  height: 80%;
+  overflow: scroll;
+  background-color: yellow;
+}
