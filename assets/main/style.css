@@ -7,4 +7,14 @@
 main{
   height: 100vh;
   background: linear-gradient(to bottom, #009688 15%, #D8DBD6 15%);
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  width: 90%;
+  max-width: 1300px;
+  height: 95vh;
+  margin: 0 auto;
+  background-color: red;
 }
