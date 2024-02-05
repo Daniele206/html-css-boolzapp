@@ -45,7 +45,7 @@ main{
 .top{
   height: 10%;
   width: 100%;
-  background-color: blue;
+  background-color: #EAEAEA;
 }
 
 .bottom{
@@ -59,10 +59,9 @@ main{
 }
 
 .sinistra-top{
-  background-color: darkgoldenrod;
   justify-content: space-between;
   align-items: center;
-  border-right: 2px solid black;
+  border-right: 1px solid #d7d7d7;
 }
 
 .user-menu{
@@ -72,6 +71,7 @@ main{
 
 .user-menu  i{
   padding-left: 10px;
+  color: #B1B1B1;
 }
 
 .destra{
@@ -80,7 +80,6 @@ main{
 }
 
 .destra-top{
-  background-color: chocolate;
   justify-content: space-between;
   align-items: center;
 }
@@ -90,13 +89,41 @@ main{
 }
 
 .info-avatar .name{
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
-.no-notifiche{
+.info-avatar .last-acces{
+  font-weight: bold;
+  color: #6C7477;
+}
+
+.notifiche{
   width: 100%;
   height: 11%;
-  background-color: aqua;
+  background-color: #8EDAFC;
+}
+
+.ricevi-notifiche{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.attiva-notifiche a{
+  color: #588396;
+  font-weight: bold;
+}
+
+.silenzioso{
+  width: 60px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #F2FBFF;
+  margin: 0 15px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  color: #8EDAFC;
 }
 
 .search-chat{
@@ -135,11 +162,15 @@ main{
     width: 90px;
   }
 
-  .no-notifiche{
+  .notifiche{
     display: none;
   }
 
   .search-chat{
+    display: none;
+  }
+
+  .my-menu{
     display: none;
   }
 
@@ -161,7 +192,7 @@ main{
     width: 100%;
   }
 
-  .user-menu{
+  .avatar-menu{
     display: none;
   }
 }
