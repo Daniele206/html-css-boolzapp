@@ -47,7 +47,7 @@ main{
 }
 
 .dark-mode{
-  background: linear-gradient(to bottom, #005d54 15%, #202020 15%);
+  background: linear-gradient(to bottom, #005d54 15%, black 15%);
 }
 
 .container{
