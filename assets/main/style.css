@@ -241,6 +241,7 @@ input{
   position: relative;
   font-weight: bold;
   margin: 5px 0;
+  padding-bottom: 30px;
 }
 
 .my-message{
