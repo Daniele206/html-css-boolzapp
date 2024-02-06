@@ -362,6 +362,10 @@ input{
   padding: 15px;
 }
 
+.dark-mode .message-option{
+  background-color: #202020;
+}
+
 .message-option span{
   margin: 5px 0;
   cursor: pointer;
