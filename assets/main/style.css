@@ -20,6 +20,10 @@ body{
   justify-content: space-between;
 }
 
+.hover{
+  cursor: pointer;
+}
+
 img{
   max-height: 100%;
   max-width: 100%;
@@ -74,6 +78,8 @@ main{
 .user-menu{
   font-size: 1.6rem;
   padding-right: 25px;
+  width: 120px;
+  justify-content: flex-end;
 }
 
 .user-menu  i{
@@ -187,7 +193,8 @@ input{
 }
 
 .scrivi input{
-  padding: 20px 20px;
+  padding: 0 20px;
+  height: 80%;
   font-size: 1.2rem;
   font-weight: normal;
   color: #A4A4A4;
@@ -227,8 +234,12 @@ input{
     height: 100%;
   }
 
+  .top .avatar{
+    margin-left: 20px;
+  }
+
   .sinistra{
-    width: 90px;
+    width: 110px;
   }
 
   .notifiche{
@@ -247,6 +258,10 @@ input{
     height: 100%;
   }
 
+  .list-chat .chat-avatar .info-avatar,.list-chat .chat-avatar .last-acces{
+    display: none;
+  }
+
   .destra{
     width: calc(100% - 80px);
   }
@@ -262,6 +277,18 @@ input{
   }
 
   .avatar-menu{
+    display: none;
+  }
+
+  .destra .scrivi{
+    justify-content: center;
+  }
+
+  .destra .scrivi input{
+    width: 95%;
+  }
+
+  .destra .scrivi i{
     display: none;
   }
 }
