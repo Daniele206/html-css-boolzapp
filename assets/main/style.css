@@ -16,6 +16,10 @@ body{
   align-items: center;
 }
 
+.just-betwen{
+  justify-content: space-between;
+}
+
 img{
   max-height: 100%;
   max-width: 100%;
@@ -25,6 +29,10 @@ img{
   width: 60px;
   margin: 0 15px;
   border-radius: 50%;
+}
+
+.bottom .avatar{
+  margin: 15px;
 }
 
 main{
@@ -39,7 +47,6 @@ main{
   max-width: 1310px;
   height: 95vh;
   margin: 0 auto;
-  background-color: red;
 }
 
 .top{
@@ -84,7 +91,7 @@ main{
   align-items: center;
 }
 
-.info-avatar{
+.top .info-avatar{
   padding-left: 20px;
 }
 
@@ -93,9 +100,22 @@ main{
   font-weight: bold;
 }
 
-.info-avatar .last-acces{
+.last-acces{
   font-weight: bold;
   color: #6C7477;
+}
+
+.bottom .last-acces{
+  font-size: .9rem;
+  color: #B1B1B1;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.info-avatar .last-message{
+  font-weight: bold;
+  color: #b1b1b1;
+  font-size: .9rem;
 }
 
 .notifiche{
@@ -140,16 +160,22 @@ main{
   width: 95%;
 }
 
-.search-chat .search .lente{
+.search .lente{
   width: 15%;
   justify-content: center;
 }
 
-.search-chat .search i{
+.search i{
   color: #B1B1B1;
 }
 
-.search-chat .search input{
+.scrivi i{
+  color: #6B7376;
+  font-size: 1.6rem;
+  padding: 0 40px;
+}
+
+input{
   width: 85%;
   font-size: 1rem;
   font-weight: bold;
@@ -160,11 +186,26 @@ main{
   border-radius: 5px;
 }
 
+.scrivi input{
+  padding: 20px 20px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #A4A4A4;
+}
+
 .list-chat{
   width: 100%;
   height: 82%;
   overflow-y: scroll;
-  background-color: yellow;
+  background-color: white;
+}
+
+.list-chat .chat-avatar:first-child{
+  border-top: 1px solid #e9e9e9;
+}
+
+.list-chat .chat-avatar{
+  border-bottom: 1px solid #e9e9e9;
 }
 
 .chat{
@@ -176,7 +217,7 @@ main{
 .scrivi{
   width: 100%;
   height: 10%;
-  background-color: deeppink;
+  background-color: #F3EEEA;
 }
 
 @media screen and (max-width: 992px){
